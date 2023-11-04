@@ -1,0 +1,132 @@
+*{
+    margin:10px;
+    box-sizing: border-box;
+    font-family:'Markazi Text' , serif;
+}
+body {
+    text-align: center; /* Center-align the entire content */
+    background-color:#EDEFEE
+  }
+
+.image {
+    height:15%;
+   width: 35%;
+   display: block; /* Make the image a block element */
+   margin: 20px auto;
+
+}
+ a:hover{
+    font-size: large;
+    color:red;
+ }
+li {
+    display: inline; /* Display list items in the same line */
+  }
+li a {
+    color:white;
+text-decoration: none;
+
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.732);
+    padding:10px;
+    border-radius: 20px;
+  } 
+  
+
+  .oneside {
+    background-image: url('pasta.jpg');
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-size: cover; /* Resize the image to cover the entire element */
+}
+
+  .oneside{
+    margin:auto;
+    padding:20px;
+    border-radius: 20px;
+  } 
+  
+.dummy{
+   word-wrap: break-word;
+width:70%;
+text-align:left;
+font-size: small;
+color:rgb(255, 255, 255);
+margin-bottom:0px;
+  } 
+h1 {
+    margin-bottom:20px;
+    text-align: left;
+    text-decoration: solid;
+    color:white;
+}
+.pcard{
+text-align: left;
+font-size: small;
+margin-top: 20px;
+display: block;
+margin-left: 0%;
+margin-right:30px;
+
+}
+.threeside{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 10px;
+    margin:auto;
+}
+
+
+
+
+
+
+.hcard{
+    color:black;
+    text-decoration: solid;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left:20px;
+}
+.pics{
+    width:200px;
+    height:100px;
+    margin:10px;
+    display: block; /* Make the image a block element */
+}
+.card1 {
+    border: 1px solid #ccc;
+    padding:0px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: bisque; /* Background color for individual cards */
+  }
+div a{
+    text-align: left;
+    font-size: small;
+    margin-top: 20px;
+    display:block;
+    color:blue;
+  }
+  .custom-line {
+    width: 50%; /* Adjust the width as needed */
+    border: 0.5px bold #000000; /* Line color and style */
+    margin-top:25px;
+    float:inline-end;
+    margin-bottom: 0px;
+  }
+  .copyright{
+    width: 50%; /* Adjust the width as needed */
+    float:inline-end;
+    text-align: right;
+    font-size: small;
+    margin-top:0px;
+  }
+  .bottomimage{
+    width:70px;
+    height:70px;
+    margin-left:0px;
+    float:inline-start;
+    margin-top:0px;
+  }
